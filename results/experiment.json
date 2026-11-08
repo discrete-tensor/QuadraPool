@@ -1,0 +1,170 @@
+{
+  "exp1_split": [
+    {
+      "donors": 1,
+      "match0": 0,
+      "match1": 1
+    },
+    {
+      "donors": 2,
+      "match0": 0.33333333232335316,
+      "match1": 0.6666666676766468
+    },
+    {
+      "donors": 3,
+      "match0": 0.5,
+      "match1": 0.5
+    },
+    {
+      "donors": 4,
+      "match0": 0.5999999972032682,
+      "match1": 0.40000000279673176
+    },
+    {
+      "donors": 6,
+      "match0": 0.7142857134638213,
+      "match1": 0.28571428653617875
+    },
+    {
+      "donors": 8,
+      "match0": 0.7777777773288977,
+      "match1": 0.2222222226711023
+    },
+    {
+      "donors": 12,
+      "match0": 0.8461538461538461,
+      "match1": 0.15384615384615385
+    },
+    {
+      "donors": 16,
+      "match0": 0.8823529402087433,
+      "match1": 0.11764705979125667
+    },
+    {
+      "donors": 24,
+      "match0": 0.9199999997422543,
+      "match1": 0.08000000025774566
+    }
+  ],
+  "exp2_sybil": [
+    {
+      "sybils": 1,
+      "allowlist": false,
+      "accepted": 1,
+      "attackerMatch": 0,
+      "honestMatch": 1
+    },
+    {
+      "sybils": 1,
+      "allowlist": true,
+      "accepted": 1,
+      "attackerMatch": 0,
+      "honestMatch": 1
+    },
+    {
+      "sybils": 2,
+      "allowlist": false,
+      "accepted": 2,
+      "attackerMatch": 0.07692307644647624,
+      "honestMatch": 0.9230769235535238
+    },
+    {
+      "sybils": 2,
+      "allowlist": true,
+      "accepted": 1,
+      "attackerMatch": 0,
+      "honestMatch": 1
+    },
+    {
+      "sybils": 4,
+      "allowlist": false,
+      "accepted": 4,
+      "attackerMatch": 0.2,
+      "honestMatch": 0.8
+    },
+    {
+      "sybils": 4,
+      "allowlist": true,
+      "accepted": 1,
+      "attackerMatch": 0,
+      "honestMatch": 1
+    },
+    {
+      "sybils": 8,
+      "allowlist": false,
+      "accepted": 8,
+      "attackerMatch": 0.36842105173910783,
+      "honestMatch": 0.6315789482608921
+    },
+    {
+      "sybils": 8,
+      "allowlist": true,
+      "accepted": 1,
+      "attackerMatch": 0,
+      "honestMatch": 1
+    },
+    {
+      "sybils": 12,
+      "allowlist": false,
+      "accepted": 12,
+      "attackerMatch": 0.47826086089968456,
+      "honestMatch": 0.5217391391003154
+    },
+    {
+      "sybils": 12,
+      "allowlist": true,
+      "accepted": 1,
+      "attackerMatch": 0,
+      "honestMatch": 1
+    },
+    {
+      "sybils": 16,
+      "allowlist": false,
+      "accepted": 16,
+      "attackerMatch": 0.5555555555555556,
+      "honestMatch": 0.4444444444444444
+    },
+    {
+      "sybils": 16,
+      "allowlist": true,
+      "accepted": 1,
+      "attackerMatch": 0,
+      "honestMatch": 1
+    }
+  ],
+  "exp3_gas": {
+    "deploy": 2189142,
+    "addProject": 119653,
+    "fundMatchingPool": 91533,
+    "contributeFirst": 118235,
+    "contributeRepeat": 45352,
+    "finalize2Projects": 132507,
+    "claim": 66193
+  },
+  "exp4_finalize": [
+    {
+      "projects": 1,
+      "finalizeGas": 124259
+    },
+    {
+      "projects": 2,
+      "finalizeGas": 152531
+    },
+    {
+      "projects": 5,
+      "finalizeGas": 237347
+    },
+    {
+      "projects": 10,
+      "finalizeGas": 378707
+    },
+    {
+      "projects": 15,
+      "finalizeGas": 539967
+    },
+    {
+      "projects": 20,
+      "finalizeGas": 661427
+    }
+  ]
+}
